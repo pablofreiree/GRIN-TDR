@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">grinapp</string>
+    <string name="roxther">ROXTHER</string>
+    <string name="todo">TODO</string>
+    <string name="recycle">recycle</string>
+    <string name="producte">producte</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="plastic">Plastic</string>
+    <string name="busca_un_producte">busca un producte</string>
+    <string name="help">¿?</string>
+    <string name="txtCredits">www.google.com</string>
+    <string name="hyperlink"><a href="pablofreireinsua11@gmail.com">Contacta amb nosaltres</a></string>
+    <string name="about_us">ABOUT US</string>
+    <string name="p_quina_es_la_funcionalitat_del_m_dul_de_recerca_de_producte">P: Quina es la funcionalitat del mòdul de recerca de producte?</string>
+    <string name="per_a_altres_consultes_o_sugger_ncies">Per a altres consultes o suggerències,</string>
+    <string name="faq">FAQ</string>
+    <string name="ajuda_i_suggerencies">AJUDA I SUGGERENCIES</string>
+    <string-array name="productos">
+        <item>USA</item>
+        <item>Chile</item>
+        <item>china</item>
+        <item>Polonia</item>
+        <item>Bulgaria</item>
+        <item>Francia</item>
+        <item>Inglaterra</item>
+        <item>Negro</item>
+
+    </string-array>
+    <string name="title_activity_display_map">Map</string>
+    <string name="title_activity_create_map">Map</string>
+
+</resources>
+
+

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tdrbgr"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="379dp"
+        android:layout_height="305dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toFase3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toFase3"
+        app:layout_constraintVertical_bias="0.705"
+        app:srcCompat="@drawable/buttonfake3" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="306dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/kanit"
+        android:gravity="center"
+        android:text="Troba els contenidors més propers a la teva ubicació actual o qualsevol ubicació desitjada"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/geolocalitzacio" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="306dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/kanit"
+        android:gravity="center"
+        android:text="Introdueix el nom del producte que vulguis llençar i rebràs instruccions sobre com fer-ho"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="379dp"
+        android:layout_height="305dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ToFase2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ToFase2"
+        app:layout_constraintVertical_bias="0.697"
+        app:srcCompat="@drawable/buttonfake3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="306dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/kanit"
+        android:gravity="center"
+        android:text="Introdueix el nom del producte que vulguis llençar i rebràs instruccions sobre com fer-ho"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:fontFamily="@font/kanit_bold"
+        android:text="RECERCA DE PRODUCTE:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/ToFase2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/geolocalitzacio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:fontFamily="@font/kanit_bold"
+        android:text="UBICACIÓ DE CONTENIDORS:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/toFase3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ToFase2"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="214dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="208dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/kanit_bold"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="@string/busca_un_producte"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/toFase3"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="214dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/kanit_bold"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="TROBA CONTENIDORS"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.914" />
+
+    <Button
+        android:id="@+id/toHelp"
+        android:layout_width="39dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/kanit_bold"
+        android:text="@string/help"
+        android:textColor="#D8F3DC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/toAboutUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/kanit"
+        android:text="About Us"
+        android:textColor="#D8F3DC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/toHelp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
